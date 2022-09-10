@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="565.0" prefWidth="1158.0" style="-fx-background-color: #ffffff00;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RegistrationFormController">
+   <children>
+      <TextField fx:id="txtSearchID" layoutX="104.0" layoutY="72.0" onAction="#searchStudentOnAction" prefHeight="35.0" prefWidth="266.0" promptText="Student ID">
+         <font>
+            <Font name="Consolas Bold" size="15.0" />
+         </font>
+      </TextField>
+      <ComboBox fx:id="cmbProgram" layoutX="552.0" layoutY="72.0" prefHeight="35.0" prefWidth="240.0" promptText="Program " />
+      <HBox layoutX="116.0" layoutY="155.0" prefHeight="312.0" prefWidth="323.0">
+         <children>
+            <VBox prefHeight="308.0" prefWidth="150.0" spacing="18.0">
+               <children>
+                  <Label layoutX="10.0" layoutY="31.0" maxWidth="1.7976931348623157E308" text="Student ID">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label maxWidth="1.7976931348623157E308" text="Name">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308" text="Address">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="52.0" maxWidth="1.7976931348623157E308" text="Mobile">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="73.0" maxWidth="1.7976931348623157E308" prefHeight="25.0" prefWidth="146.0" text="Another Programs">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox layoutX="10.0" layoutY="10.0" prefHeight="308.0" prefWidth="157.0" spacing="18.0">
+               <children>
+                  <Label fx:id="lblStudentID" layoutX="10.0" layoutY="31.0" maxWidth="1.7976931348623157E308" text="-">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblStudentName" maxWidth="1.7976931348623157E308" text="-">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblAddress" layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308" text="-">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblMobile" layoutX="10.0" layoutY="52.0" maxWidth="1.7976931348623157E308" text="-">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblRegisteredProgram" alignment="TOP_LEFT" layoutX="10.0" layoutY="73.0" maxWidth="1.7976931348623157E308" prefHeight="113.0" prefWidth="157.0" text="-" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets top="4.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="552.0" layoutY="134.0" prefHeight="194.0" prefWidth="266.0">
+         <children>
+            <VBox prefHeight="308.0" prefWidth="90.0" spacing="18.0">
+               <children>
+                  <Label layoutX="10.0" layoutY="31.0" maxWidth="1.7976931348623157E308" text="Program ID">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label maxWidth="1.7976931348623157E308" text="Program">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308" text="Duration">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="52.0" maxWidth="1.7976931348623157E308" text="Fee">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox layoutX="10.0" layoutY="10.0" prefHeight="308.0" prefWidth="177.0" spacing="18.0">
+               <children>
+                  <Label fx:id="lblProgramID" layoutX="10.0" layoutY="31.0" maxWidth="1.7976931348623157E308" text="-">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblProgramName" maxWidth="1.7976931348623157E308" text="-">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblDuration" layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308" text="-">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblFee" layoutX="10.0" layoutY="52.0" maxWidth="1.7976931348623157E308" text="-">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets top="4.0" />
+         </padding>
+      </HBox>
+      <JFXButton fx:id="btnRegister" buttonType="RAISED" layoutX="527.0" layoutY="449.0" onAction="#registerOnAction" prefHeight="43.0" prefWidth="158.0" style="-fx-background-color: FFA850;" text="Register">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="713.0" layoutY="449.0" onAction="#cancelOnAActionn" prefHeight="43.0" prefWidth="158.0" style="-fx-background-color: A7A8AA;" text="Cancel">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
