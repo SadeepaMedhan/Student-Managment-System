@@ -1,6 +1,12 @@
 # Sipsewana Institute.
 ### Student Management Application
-<div id="top"></div>
+
+## Tech/framework used
+* Java
+* JavaFx
+* Hibernate
+* MySQL
+* CSS
 
 ## ScreenShots
 
@@ -9,3 +15,4 @@
 
 ### Home Page
 ![App Screenshot](src/view/assets/home.png)
+
